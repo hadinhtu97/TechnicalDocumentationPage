@@ -12,7 +12,10 @@ body {
 #navbar>header {
     text-align: center;
     font-size: 20px;
-    color: #dd4814;
+}
+nav>header>h1>a {
+  color: #dd4814;
+  background-color: white;
 }
 
 a {
@@ -32,7 +35,6 @@ a {
     border-top: 1px solid cyan;
     border-bottom: 1px solid cyan;
     padding: 5px;
-    font-family: monospace;
 }
 
 @media (max-width: 700px) {
@@ -40,7 +42,6 @@ a {
         position: relative;
         width: 100%;
         height: auto;
-        text-align: center;
     }
     #main-doc {
         margin: 10px;
@@ -49,7 +50,6 @@ a {
 
 h2 {
     background-color: cyan;
-    text-align: center;
 }
 
 article {
@@ -64,7 +64,6 @@ code {
     display: block;
     background-color: gray;
     color: white;
-    white-space: pre;
 }
 
 @media (max-width: 700px) {
